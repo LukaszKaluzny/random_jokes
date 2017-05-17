@@ -15,3 +15,4 @@ function getJoke() {
 button.addEventListener('click', function(){
   getJoke();
 });
+$(document).ready(getJoke);
